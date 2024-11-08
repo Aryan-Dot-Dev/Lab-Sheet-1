@@ -1,3 +1,4 @@
+package src;
 public class StaticArray {
     private int[] array;
     private int size;
@@ -39,14 +40,5 @@ public class StaticArray {
             System.out.print(array[i]);
         }
         System.out.println("]");
-    }
-
-    // Main method to test the program
-    public static void main(String[] args) {
-        StaticArray staticArray = new StaticArray(5);
-        staticArray.insert(1);
-        staticArray.insert(2);
-        staticArray.delete(1);
-        staticArray.traverse();
     }
 }
