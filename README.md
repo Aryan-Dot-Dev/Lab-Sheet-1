@@ -6,8 +6,7 @@
     On the terminal, copy and paste the following command
 
    ```bash
-   git clone https://github.com/username/project-repo.git
-   cd project-repo
+   git clone https://github.com/Aryan-Dot-Dev/Lab-Sheet-1
    ```
    
 2. **Compile the Code**:
