@@ -25,3 +25,11 @@
     java -cp out test.DynamicArrayTest
     java -cp out test.StringOperationsTest
     ```
+
+## Repository Overview
+
+1.  All the Java Class files are stored in the ```src``` directory
+
+2. All the TestFiles which will be used to run the program to check test-cases are stored in ```test``` directory
+
+3. After all the javac commands have been executed, all new files will be stored in ```out/src``` and ```out/test``` directory, and will be used to execute the program.
