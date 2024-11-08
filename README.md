@@ -12,7 +12,7 @@
 2. **Compile the Code**:
     Use javac to create Class Files for all Java files.
     All the code is compiled in out/src and out/test directories
-    ```
+    ```bash
     javac -d out src/StaticArray.java test/StaticArrayTest.java
     javac -d out src/DynamicArray.java test/DynamicArrayTest.java
     javac -d out src/StringOperations.java test/StringOperationsTest.java
@@ -20,7 +20,7 @@
 
 3. **Run the Code**:
     Use java command to run files individually.
-    ```
+    ```bash
     java -cp out test.StaticArrayTest
     java -cp out test.DynamicArrayTest
     java -cp out test.StringOperationsTest
