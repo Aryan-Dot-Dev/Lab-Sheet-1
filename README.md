@@ -8,8 +8,14 @@
    ```bash
    git clone https://github.com/Aryan-Dot-Dev/Lab-Sheet-1
    ```
+
+2. **Go to the Lab Sheet 1 directory**
+    Navigate to ```Lab-Sheet-1 ```
+    ```
+    cd .\Lab-Sheet-1
+    ```
    
-2. **Compile the Code**:
+3. **Compile the Code**:
     Use javac to create Class Files for all Java files.
     All the code is compiled in out/src and out/test directories
     ```bash
@@ -18,7 +24,7 @@
     javac -d out src/StringOperations.java test/StringOperationsTest.java
     ```
 
-3. **Run the Code**:
+4. **Run the Code**:
     Use java command to run files individually.
     ```bash
     java -cp out test.StaticArrayTest
